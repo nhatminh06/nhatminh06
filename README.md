@@ -58,7 +58,7 @@ I'm a **Computer Science student** at the **University of Minnesota, Twin Cities
   <a href="https://www.linkedin.com/in/nhat-minh-pham-a870382a8/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="https://nhatminh06.github.io/static-website/" target="_blank">
+  <a href="https://nhatminh06.github.io/myprofile/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-61dafb?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio">
   </a>
 </div>
