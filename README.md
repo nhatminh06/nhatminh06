@@ -1,9 +1,5 @@
 # 👋 Hi, I'm Minh Pham
 
-<div align="center">
-  <img src="static/avatar.jpg" alt="Minh Pham" width="200" style="border-radius: 50%; border: 4px solid #61dafb; box-shadow: 0 8px 32px rgba(97, 218, 251, 0.2);">
-</div>
-
 ## 🧑‍💻 About Me
 
 I'm a **Computer Science student** at the **University of Minnesota, Twin Cities** with a passion for building meaningful software solutions. I believe programming is the art of solving real human problems with logic and empathy.
@@ -34,30 +30,12 @@ I'm a **Computer Science student** at the **University of Minnesota, Twin Cities
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-## 📚 Featured Projects
-
-### 🏠 [Personal Portfolio Website](https://nhatminh06.github.io/static-website/)
-A dynamic, responsive personal dashboard showcasing my work, journey, and values.
-- **Tech**: Go (templates), HTML/CSS, Vanilla JS
-- **Features**: Professional styling, semantic layout, fully responsive design
-- **Status**: ✅ Completed
-
-### 📝 [Blog & Learning Journey](https://nhatminh06.github.io/static-website/blog.html)
-Documenting my development journey, including:
-- **Go Programming**: Why I love Go and its philosophy
-- **University Experience**: My first year at UMN Twin Cities
-- **Fitness & Development**: 4-day gym routine balancing coding and health
-
 ## 🎯 Current Focus (2025)
 
 - **Scalable Go APIs**: Learning clean architecture patterns
 - **React Performance**: Component optimization and lifecycle management
 - **Cloud Deployment**: CI/CD and infrastructure best practices
 - **AI-Assisted Coding**: Exploring GitHub Copilot for productivity
-
-## 📖 Learning Philosophy
-
-> "I start with clarity — mapping out what problem I'm solving and why it matters. I build iteratively, valuing working versions, continuous feedback, and quick wins."
 
 ### How I Learn
 - 🔍 **Reverse-engineering** open-source projects I admire
@@ -70,14 +48,6 @@ Documenting my development journey, including:
 - Full Stack Deep Learning (FSDS)
 - Clean Architecture by Robert Martin
 - Stack Overflow & r/learnprogramming
-
-## 🏃‍♂️ Beyond Code
-
-When I'm not coding, you'll find me:
-- 🏋️‍♂️ **Fitness enthusiast**: 4-day gym routine balancing strength and endurance
-- 🌍 **International student**: Navigating life at UMN Twin Cities
-- 📝 **Blogging**: Sharing insights about development and personal growth
-- 🎯 **Goal-oriented**: Always setting and pursuing new challenges
 
 ## 📬 Let's Connect
 
