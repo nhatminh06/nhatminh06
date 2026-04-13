@@ -63,15 +63,16 @@ I enjoy building systems that are not only functional, but also **reliable, auto
   </a>
 </div>
 
-## GitHub Stats
+## GitHub Stats:
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nhatminh06&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats">
-</div>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nhatminh06&theme=tokyonight" />
+</p>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nhatminh06&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages">
-</div>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nhatminh06&theme=tokyonight" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nhatminh06&theme=tokyonight" width="49%" />
+</p>
 
 ---
 
