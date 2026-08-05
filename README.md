@@ -1,81 +1,38 @@
-# Hi, I'm Minh Pham
+# Minh Pham
 
-## About Me
+Computer Science and Mathematics student at the University of Minnesota, Twin Cities, building production-oriented distributed systems, cloud infrastructure, data platforms, ML systems, and low-level Linux projects. I focus on systems that are observable, reproducible, secure, and maintainable.
 
-I'm a **Computer Science and Mathematics student** at the **University of Minnesota, Twin Cities** with a strong interest in **DevOps, backend engineering, cloud infrastructure, and MLOps**.
+## Areas of Focus
 
-I enjoy building systems that are not only functional, but also **reliable, automated, and production-oriented**. My current work focuses on **CI/CD pipelines, containerized services, infrastructure tooling, and scalable backend APIs**.
+- **Distributed and backend systems** — event-driven services, APIs, service-oriented architecture
+- **Platform and cloud infrastructure** — Kubernetes, GitOps, infrastructure as code, CI/CD
+- **Data platforms and streaming** — lakehouse architecture, orchestration, data quality
+- **ML infrastructure and production inference** — model versioning, serving, observability, drift monitoring
+- **Linux systems and low-level development** — kernel internals, device drivers, debugging
 
-## What I'm Focused On
+## Featured Projects
 
-- **DevOps & Platform Engineering**: CI/CD, automation, deployment workflows, and developer productivity
-- **Backend Engineering**: Designing clean APIs and service-oriented systems
-- **Cloud & Infrastructure**: Learning Kubernetes, Terraform, Docker, and modern deployment patterns
-- **MLOps Systems**: Building ML-powered services with testing, reproducibility, and deployment in mind
+| Project | Description | Focus |
+|---|---|---|
+| [**MatchSense**](https://github.com/nhatminh06/matchsense) | Real-time football analytics platform built with five Go and Python services, Kafka, Redis, FastAPI, Kubernetes, and ArgoCD. | Event-driven microservices, distributed tracing (OpenTelemetry, Prometheus, Loki, Jaeger), GitOps, supply-chain security (Kyverno, Trivy, Cosign) |
+| [**Linux Kernel Lab**](https://github.com/nhatminh06/linux-kernel-lab) | A Linux systems project featuring a custom kernel build, BusyBox initramfs, and a character-device driver written in C. | Linux kernel, device drivers, C, QEMU, GDB, toolchain debugging |
+| [**Market Pulse**](https://github.com/nhatminh06/market-pulse) | End-to-end stock-market analytics lakehouse using Apache Iceberg, Trino, dbt, and Airflow. | Bronze/silver/gold data layers, data quality, infrastructure as code (Terraform, MinIO), orchestration, analytical serving (Superset) |
+| [**Personal Cognitive Load Monitoring System**](https://github.com/nhatminh06/personal-cognitive-load-monitor) | End-to-end MLOps platform using FastAPI, MLflow, DVC, KServe, and Helm on Kubernetes. | Model versioning, reproducibility, inference serving, CI/CD, observability and drift monitoring (Prometheus, Loki, Tempo, Evidently) |
+| [**Company Research**](https://github.com/nhatminh06/company-research) | Full-stack company research and resume-evaluation application using React, Node.js, FastAPI, and MongoDB. | Full-stack engineering, retrieval-augmented generation, vector search (PostgreSQL/pgvector), multi-step AI workflows (LangChain, LangGraph), streaming responses (SSE) |
+| [**DevSecOps Lab**](https://github.com/nhatminh06/devsecops-lab) | Infrastructure and delivery lab covering Jenkins, Kubernetes, Docker, Helm, Harbor, and Nexus. | Security scanning, observability |
 
-## Tech Stack
+## Experience
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+- **DevSecOps Engineering Intern** — VietinBank
+- **Full-stack Engineering Intern** — FPT Software
 
-### DevOps, Cloud & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
+## Technical Focus
 
-## Currently Learning
+Go, Python, TypeScript, C · Kubernetes, Docker, Terraform, ArgoCD · Kafka, Iceberg, Trino, Airflow · Prometheus, Loki, Jaeger, OpenTelemetry · MLflow, KServe, DVC · Linux kernel and systems programming
 
-- Kubernetes in deeper production scenarios
-- Terraform and infrastructure as code workflows
-- Observability, scaling, and reliability engineering
-- Stronger backend architecture in Go and Python
-- Cloud-native deployment practices
+## Contact
 
-## How I Work
-
-- I care about **clean, readable code**
-- I like building systems that are **practical and maintainable**
-- I learn by **building real projects**, not just following tutorials
-- I value **automation, testing, and iteration**
-
-## Connect With Me
-
-<div align="center">
-  <a href="https://github.com/nhatminh06" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-  <a href="https://www.linkedin.com/in/nhat-minh-pham-a870382a8/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://minhpham06.com" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-61dafb?style=for-the-badge&logo=google-chrome&logoColor=black" alt="Portfolio">
-  </a>
-</div>
-
-## GitHub Stats:
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nhatminh06&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nhatminh06&theme=tokyonight" width="49%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nhatminh06&theme=tokyonight" width="49%" />
-</p>
-
----
-
-<div align="center">
-  <em>Building reliable systems, learning in public, and growing toward DevOps & backend engineering.</em>
-</div>
+- Email: [mphamnhat2006@gmail.com](mailto:mphamnhat2006@gmail.com)
+- LinkedIn: [linkedin.com/in/minhpham2418](https://linkedin.com/in/minhpham2418)
+- Portfolio: [minhpham06.com](https://minhpham06.com)
+- GitHub: [github.com/nhatminh06](https://github.com/nhatminh06)
