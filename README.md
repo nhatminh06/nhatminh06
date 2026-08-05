@@ -30,30 +30,6 @@ Computer Science and Mathematics student at the University of Minnesota, Twin Ci
 
 Go, Python, TypeScript, C · Kubernetes, Docker, Terraform, ArgoCD · Kafka, Iceberg, Trino, Airflow · Prometheus, Loki, Jaeger, OpenTelemetry · MLflow, KServe, DVC · Linux kernel and systems programming
 
-## GitHub Activity
-
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nhatminh06&theme=tokyonight"
-    alt="Minh Pham's GitHub contribution activity"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nhatminh06&theme=tokyonight"
-    width="49%"
-    alt="Minh Pham's GitHub statistics"
-  />
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nhatminh06&theme=tokyonight"
-    width="49%"
-    alt="Minh Pham's most-committed languages by repository"
-  />
-</p>
-
-<p align="center"><sub>Language breakdown reflects repository composition, not proficiency.</sub></p>
-
 ## Contact
 
 - Email: [mphamnhat2006@gmail.com](mailto:mphamnhat2006@gmail.com)
