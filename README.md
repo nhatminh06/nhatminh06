@@ -1,25 +1,56 @@
 # Minh Pham
 
-Computer Science and Mathematics student at the University of Minnesota, Twin Cities, building production-oriented distributed systems, cloud infrastructure, data platforms, ML systems, and low-level Linux projects. I focus on systems that are observable, reproducible, secure, and maintainable.
+Computer Science and Mathematics student at the University of Minnesota, Twin Cities, interested in **distributed systems, backend infrastructure, databases, networking, and AI systems**.
+
+I like building systems where correctness matters under concurrency, failures, retries, resource constraints, and real operational conditions. Most of my recent projects focus on understanding the mechanisms behind infrastructure rather than only assembling existing tools.
 
 ## Areas of Focus
 
-- **Distributed and backend systems** — event-driven services, APIs, service-oriented architecture
-- **Platform and cloud infrastructure** — Kubernetes, GitOps, infrastructure as code, CI/CD
-- **Data platforms and streaming** — lakehouse architecture, orchestration, data quality
-- **ML infrastructure and production inference** — model versioning, serving, observability, drift monitoring
-- **Linux systems and low-level development** — kernel internals, device drivers, debugging
+- **Distributed systems** — consensus, replication, scheduling, leases, failure recovery
+- **Backend and database systems** — transactions, concurrency control, messaging, reliability
+- **Systems programming** — networking, storage engines, Linux, low-level debugging
+- **Platform engineering** — CI/CD, Kubernetes, GitOps, observability, infrastructure as code
+- **AI systems** — accelerator modeling, inference performance, ML infrastructure
 
 ## Featured Projects
 
-| Project | Description | Focus |
+| Project | What I Built | Focus |
 |---|---|---|
-| [**MatchSense**](https://github.com/nhatminh06/matchsense) | Real-time football analytics platform built with five Go and Python services, Kafka, Redis, FastAPI, Kubernetes, and ArgoCD. | Event-driven microservices, distributed tracing (OpenTelemetry, Prometheus, Loki, Jaeger), GitOps, supply-chain security (Kyverno, Trivy, Cosign) |
-| [**Linux Kernel Lab**](https://github.com/nhatminh06/linux-kernel-lab) | A Linux systems project featuring a custom kernel build, BusyBox initramfs, and a character-device driver written in C. | Linux kernel, device drivers, C, QEMU, GDB, toolchain debugging |
-| [**Market Pulse**](https://github.com/nhatminh06/market-pulse) | End-to-end stock-market analytics lakehouse using Apache Iceberg, Trino, dbt, and Airflow. | Bronze/silver/gold data layers, data quality, infrastructure as code (Terraform, MinIO), orchestration, analytical serving (Superset) |
-| [**Personal Cognitive Load Monitoring System**](https://github.com/nhatminh06/personal-cognitive-load-monitor) | End-to-end MLOps platform using FastAPI, MLflow, DVC, KServe, and Helm on Kubernetes. | Model versioning, reproducibility, inference serving, CI/CD, observability and drift monitoring (Prometheus, Loki, Tempo, Evidently) |
-| [**Company Research**](https://github.com/nhatminh06/company-research) | Full-stack company research and resume-evaluation application using React, Node.js, FastAPI, and MongoDB. | Full-stack engineering, retrieval-augmented generation, vector search (PostgreSQL/pgvector), multi-step AI workflows (LangChain, LangGraph), streaming responses (SSE) |
-| [**DevSecOps Lab**](https://github.com/nhatminh06/devsecops-lab) | Infrastructure and delivery lab covering Jenkins, Kubernetes, Docker, Helm, Harbor, and Nexus. | Security scanning, observability |
+| [**ForgeCI**](https://github.com/nhatminh06/forgeci) | Self-hosted distributed CI engine with DAG scheduling, remote runners, PostgreSQL-backed job leasing, immutable source snapshots, artifacts, caching, durable logs, and native GitHub integration. | Distributed systems, scheduling, concurrency, Go, PostgreSQL |
+| [**PgSentry**](https://github.com/nhatminh06/pgsentry) | PostgreSQL reliability engineering lab for studying automatic failover, replication durability, network partitions, migration risk, backup recovery, and operational alerting using real multi-VM failure experiments. | PostgreSQL, HA, distributed coordination, failure engineering |
+| [**TensorForge**](https://github.com/nhatminh06/tensorforge) | AI accelerator performance-modeling toolkit for studying GEMM, Transformer, and Conv2D workloads across PE arrays, SRAM capacity, tiling strategies, DRAM traffic, and measured hardware performance. | AI systems, computer architecture, performance modeling, Python |
+| [**QuorumKV**](https://github.com/nhatminh06/quorumkv) | Distributed key-value store implementing Raft consensus, replication, snapshots, membership changes, ReadIndex, crash recovery, and real-process cluster testing. | Consensus, distributed systems, Go |
+| [**Wirestack**](https://github.com/nhatminh06/wirestack) | User-space networking stack implementing TCP behavior including retransmission, adaptive RTO, flow and congestion control, NewReno, SACK, DNS resolution, HTTP, and Linux TAP interoperability. | Networking, protocols, systems programming, C++ |
+| [**CommerceCore**](https://github.com/nhatminh06/commercecore) | Correctness-first e-commerce backend exploring inventory contention, transactional checkout, idempotency, payment ambiguity, Kafka delivery, transactional outbox, reconciliation, and remote-service failures. | Java, Spring Boot, PostgreSQL, Kafka, gRPC |
+
+## More Systems Work
+
+- [**PageDB**](https://github.com/nhatminh06/pagedb) — educational database engine written in C with pages, buffer management, table storage, catalog, query execution, SQL planning, TCP protocol, and a Java client.
+- [**AEIGS**](https://github.com/nhatminh06/aeigs) — security-focused GitOps private cloud built with FluxCD, Kubernetes, Cilium, Kyverno, SOPS, Authentik, Prometheus, Loki, Grafana, and Hubble.
+- [**Linux Kernel Lab**](https://github.com/nhatminh06/linux-kernel-lab) — custom Linux kernel environment with BusyBox, QEMU, kernel debugging, and character-device development in C.
+- [**MatchSense**](https://github.com/nhatminh06/matchsense) — real-time football analytics platform using Go, Python, Kafka, Redis, Kubernetes, GitOps, and distributed observability.
+- [**Market Pulse**](https://github.com/nhatminh06/market-pulse) — analytical data platform built around Apache Iceberg, Trino, dbt, Airflow, Terraform, and MinIO.
+
+## What I Like to Study
+
+A recurring question across my projects is:
+
+> What actually happens when the normal path stops being normal?
+
+That has led me to experiment with:
+
+- concurrent transactions and race conditions
+- process crashes and restart recovery
+- network partitions and quorum loss
+- duplicate and reordered messages
+- stale distributed workers
+- ambiguous remote operations
+- storage durability and recovery
+- protocol retransmission and congestion
+- memory and compute bottlenecks
+- observability during real failures
+
+I try to make those behaviors measurable through tests, failure injection, benchmarks, and reproducible experiments instead of describing them only at the architecture level.
 
 ## Experience
 
@@ -28,7 +59,11 @@ Computer Science and Mathematics student at the University of Minnesota, Twin Ci
 
 ## Technical Focus
 
-Go, Python, TypeScript, C · Kubernetes, Docker, Terraform, ArgoCD · Kafka, Iceberg, Trino, Airflow · Prometheus, Loki, Jaeger, OpenTelemetry · MLflow, KServe, DVC · Linux kernel and systems programming
+**Languages:** Go, Java, C, C++, Python, TypeScript  
+**Systems:** Linux, TCP/IP, Raft, PostgreSQL, Kafka, gRPC  
+**Infrastructure:** Kubernetes, Docker, Terraform, FluxCD, ArgoCD  
+**Observability:** Prometheus, Grafana, Loki, OpenTelemetry, Jaeger  
+**AI / ML:** PyTorch, MLflow, accelerator performance modeling, model serving
 
 ## Contact
 
