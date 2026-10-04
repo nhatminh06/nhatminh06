@@ -2,60 +2,128 @@ $\Large\color{#ff5f56}{\bullet}\ \color{#ffbd2e}{\bullet}\ \color{#27c93f}{\bull
 
 ---
 
-$\color{#3fb950}{\texttt{minh@github:}\sim\texttt{>\ whoami}}$
+### `minh@github:~$ whoami`
 
-## $\color{#58a6ff}{\texttt{Minh\ Pham}}$
+# Minh Pham
 
-$\color{#79c0ff}{\texttt{Computer\ Science\ @\ University\ of\ Minnesota}}$
+**Computer Science @ University of Minnesota**
 
-$\color{#8b949e}{\texttt{systems\ engineer\ |\ low-level\ programmer\ |\ ML\ systems}}$
+`systems engineering` · `low-level programming` · `ML systems`
 
-$\color{#3fb950}{\texttt{minh@github:}\sim\texttt{>\ cat\ interests.txt}}$
+> I build efficient, dependable systems close to the hardware and useful in production.
 
-```bash
-ML systems | distributed systems | Linux | AI infrastructure
+---
+
+### `minh@github:~$ cat interests.txt`
+
+```text
+ML Systems        GPU Performance        Computer Architecture
+Distributed Systems        Linux        AI Infrastructure
 ```
 
-$\color{#3fb950}{\texttt{minh@github:}\sim\texttt{>\ cat\ mission.txt}}$
-
-```bash
-# Build efficient, dependable systems close to the hardware
-# and useful in production.
-```
-
-$\color{#3fb950}{\texttt{minh@github:}\sim\texttt{>\ ls\ -la\ }\sim\texttt{/projects}}$
-
-```ini
-[projects]
-tensorforge      = "ML systems + GPU performance modeling"
-quorumkv         = "Raft-based distributed KV store in Go"
-wirestack        = "TCP/IP stack from scratch in C++"
-aegis            = "Kubernetes GitOps security platform"
-commercecore     = "event-driven commerce backend"
-linux-kernel-lab = "kernel, BusyBox, QEMU, and character devices"
-```
-
-$\color{#3fb950}{\texttt{minh@github:}\sim\texttt{>\ cat\ stack.txt}}$
-
-```ini
-[stack]
-languages = C++ Go Python Java C TypeScript SQL Bash
-systems   = Linux TCP/IP Raft distributed-systems computer-architecture
-infra     = Kubernetes Docker FluxCD Terraform GitHub-Actions
-data      = "PostgreSQL Kafka Redis Apache-Iceberg Trino"
-ml        = PyTorch CUDA NVML MLflow model-serving
-```
-
-$\color{#3fb950}{\texttt{minh@github:}\sim\texttt{>\ ./current-focus}}$
+### `minh@github:~$ ./current-focus`
 
 ```diff
 + ML systems and efficient AI on real hardware
 + GPU performance and computer architecture
-+ (add your third line here)
++ Distributed systems and systems software
 ```
 
-$\color{#3fb950}{\texttt{minh@github:}\sim\texttt{>\ ls\ links/}}$
+---
 
-[tensorforge](https://github.com/nhatminh06/tensorforge) · [quorumkv](https://github.com/nhatminh06/quorumkv) · [wirestack](https://github.com/nhatminh06/wirestack) · [aegis](https://github.com/nhatminh06/aegis) · [minhpham06.com](https://minhpham06.com) · [LinkedIn](https://www.linkedin.com/in/nhat-minh-pham-a870382a8)
+### `minh@github:~$ ls ~/projects`
 
-$\color{#3fb950}{\texttt{minh@github:}\sim\texttt{>}}\ \color{#8b949e}{\underline{\ \ \ }}$
+| Project | What it is | Stack |
+| --- | --- | --- |
+| **[TensorForge](https://github.com/nhatminh06/tensorforge)** | Empirical GPU roofline modeling and performance analysis | Python · PyTorch · CUDA · NVML |
+| **[QuorumKV](https://github.com/nhatminh06/quorumkv)** | Raft-based distributed key-value store | Go · Raft · TCP |
+| **[WireStack](https://github.com/nhatminh06/wirestack)** | TCP/IP networking stack built from scratch | C++ · Ethernet · IPv4 · TCP |
+| **[Aegis](https://github.com/nhatminh06/aegis)** | Secure GitOps private-cloud platform | Kubernetes · FluxCD · Cilium · Kyverno |
+| **[CommerceCore](https://github.com/nhatminh06/commercecore)** | Transactional event-driven commerce backend | Java · PostgreSQL · Kafka · gRPC |
+| **[Linux Kernel Lab](https://github.com/nhatminh06/linux-kernel-lab)** | Kernel, QEMU, BusyBox, and device-driver experiments | C · Linux · QEMU · GDB |
+
+---
+
+### `minh@github:~$ cat stack.txt`
+
+```yaml
+languages:
+  - C++
+  - C
+  - Go
+  - Python
+  - Java
+  - TypeScript
+  - SQL
+  - Bash
+
+systems:
+  - Linux
+  - TCP/IP
+  - Raft
+  - Distributed Systems
+  - Computer Architecture
+
+infrastructure:
+  - Kubernetes
+  - Docker
+  - FluxCD
+  - Terraform
+  - GitHub Actions
+
+data:
+  - PostgreSQL
+  - Kafka
+  - Redis
+  - Apache Iceberg
+  - Trino
+
+ml-systems:
+  - PyTorch
+  - CUDA
+  - NVML
+  - MLflow
+  - Model Serving
+```
+
+---
+
+### `minh@github:~$ cat about.txt`
+
+```text
+I like understanding what happens below the abstraction.
+
+That usually means working somewhere between distributed systems,
+operating systems, networking, GPU performance, and ML infrastructure.
+
+I care about systems that are measurable, reproducible,
+and actually work outside of a demo.
+```
+
+---
+
+### `minh@github:~$ cat principles.txt`
+
+```ini
+[engineering]
+measure    = "before optimizing"
+automate   = "what should be reproducible"
+test       = "the failure paths too"
+document   = "what future me will forget"
+ship       = "working systems over impressive diagrams"
+```
+
+---
+
+### `minh@github:~$ ls links/`
+
+[**Portfolio**](https://minhpham06.com)
+· [**LinkedIn**](https://www.linkedin.com/in/nhat-minh-pham-a870382a8)
+· [**TensorForge**](https://github.com/nhatminh06/tensorforge)
+· [**QuorumKV**](https://github.com/nhatminh06/quorumkv)
+· [**WireStack**](https://github.com/nhatminh06/wirestack)
+· [**Aegis**](https://github.com/nhatminh06/aegis)
+
+<br>
+
+`minh@github:~$` ▋
