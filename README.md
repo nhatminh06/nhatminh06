@@ -1,5 +1,4 @@
-$\Large\color{#ff5f56}{\bullet}\ \color{#ffbd2e}{\bullet}\ \color{#27c93f}{\bullet}\ \ \color{#8b949e}{\texttt{minh@github:}\sim}$
-
+$\Huge{\color{#ff5f56}{\bullet}\ \color{#ffbd2e}{\bullet}\ \color{#27c93f}{\bullet}}\qquad\Large{\color{#8b949e}{\texttt{minh@github:}\sim}}$
 ---
 
 ### `minh@github:~$ whoami`
