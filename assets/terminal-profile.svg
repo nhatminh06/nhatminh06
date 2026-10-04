@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1760" viewBox="0 0 1400 1760" role="img" aria-labelledby="title desc">
+<title id="title">Minh Pham terminal-style GitHub profile</title>
+<desc id="desc">Editable SVG terminal profile with projects, stack, experience, and contact information.</desc>
+<defs>
+  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="10" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  <linearGradient id="pageBg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#041626"/>
+    <stop offset="100%" stop-color="#020b14"/>
+  </linearGradient>
+  <style>
+    text {
+      font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    }
+  </style>
+</defs>
+
+<rect width="1400" height="1760" fill="url(#pageBg)"/>
+<rect x="45" y="45" width="1310" height="1670" rx="20"
+      fill="#061522" stroke="#168aad" stroke-width="2"
+      filter="url(#glow)"/>
+<rect x="45" y="45" width="1310" height="68" rx="20" fill="#08233a"/>
+<rect x="45" y="95" width="1310" height="18" fill="#08233a"/>
+
+<circle cx="80" cy="79" r="8" fill="#ff5f57"/>
+<circle cx="110" cy="79" r="8" fill="#febc2e"/>
+<circle cx="140" cy="79" r="8" fill="#28c840"/>
+<text x="205" y="86" fill="#6ab6ff" font-size="20" font-family="JetBrains Mono, monospace">minh@github: ~</text>
+
+<text x="92" y="165" fill="#55f5a3" font-size="22" font-weight="600" text-anchor="start" opacity="1.0">minh@github:~$</text>
+<text x="300" y="165" fill="#55f5a3" font-size="22" font-weight="600" text-anchor="start" opacity="1.0">whoami</text>
+<text x="92" y="217" fill="#f6f9ff" font-size="38" font-weight="700" text-anchor="start" opacity="1.0">Minh Pham</text>
+<text x="92" y="257" fill="#2dd4ff" font-size="23" font-weight="500" text-anchor="start" opacity="1.0">Computer Science @ University of Minnesota</text>
+<text x="92" y="291" fill="#91a7bd" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">systems engineer · low-level programmer · ML systems</text>
+<text x="92" y="355" fill="#55f5a3" font-size="22" font-weight="600" text-anchor="start" opacity="1.0">minh@github:~$</text>
+<text x="300" y="355" fill="#55f5a3" font-size="22" font-weight="600" text-anchor="start" opacity="1.0">cat interests.txt</text>
+<text x="92" y="403" fill="#d9e6f2" font-size="21" font-weight="400" text-anchor="start" opacity="1.0">ML systems | distributed systems | Linux | AI infrastructure</text>
+<text x="92" y="475" fill="#55f5a3" font-size="22" font-weight="600" text-anchor="start" opacity="1.0">minh@github:~$</text>
+<text x="300" y="475" fill="#55f5a3" font-size="22" font-weight="600" text-anchor="start" opacity="1.0">cat mission.txt</text>
+<text x="92" y="523" fill="#d9e6f2" font-size="20" font-weight="400" text-anchor="start" opacity="1.0">Build efficient, dependable systems close to the hardware</text>
+<text x="92" y="555" fill="#d9e6f2" font-size="20" font-weight="400" text-anchor="start" opacity="1.0">and useful in production.</text>
+<text x="92" y="610" fill="#55f5a3" font-size="22" font-weight="600" text-anchor="start" opacity="1.0">minh@github:~$</text>
+<text x="300" y="610" fill="#55f5a3" font-size="22" font-weight="600" text-anchor="start" opacity="1.0">ls -la ~/projects</text>
+<text x="92" y="658" fill="#91a7bd" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">drwxr-xr-x</text>
+<text x="245" y="658" fill="#6ab6ff" font-size="18" font-weight="600" text-anchor="start" opacity="1.0">▣</text>
+<text x="285" y="658" fill="#2dd4ff" font-size="19" font-weight="700" text-anchor="start" opacity="1.0">tensorforge/</text>
+<text x="530" y="658" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">ML systems + GPU performance modeling</text>
+<text x="92" y="696" fill="#91a7bd" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">drwxr-xr-x</text>
+<text x="245" y="696" fill="#6ab6ff" font-size="18" font-weight="600" text-anchor="start" opacity="1.0">▣</text>
+<text x="285" y="696" fill="#2dd4ff" font-size="19" font-weight="700" text-anchor="start" opacity="1.0">quorumkv/</text>
+<text x="530" y="696" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">Raft-based distributed KV store in Go</text>
+<text x="92" y="734" fill="#91a7bd" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">drwxr-xr-x</text>
+<text x="245" y="734" fill="#6ab6ff" font-size="18" font-weight="600" text-anchor="start" opacity="1.0">▣</text>
+<text x="285" y="734" fill="#2dd4ff" font-size="19" font-weight="700" text-anchor="start" opacity="1.0">wirestack/</text>
+<text x="530" y="734" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">TCP/IP stack from scratch in C++</text>
+<text x="92" y="772" fill="#91a7bd" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">drwxr-xr-x</text>
+<text x="245" y="772" fill="#6ab6ff" font-size="18" font-weight="600" text-anchor="start" opacity="1.0">▣</text>
+<text x="285" y="772" fill="#2dd4ff" font-size="19" font-weight="700" text-anchor="start" opacity="1.0">aegis/</text>
+<text x="530" y="772" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">Kubernetes GitOps security platform</text>
+<text x="92" y="810" fill="#91a7bd" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">drwxr-xr-x</text>
+<text x="245" y="810" fill="#6ab6ff" font-size="18" font-weight="600" text-anchor="start" opacity="1.0">▣</text>
+<text x="285" y="810" fill="#2dd4ff" font-size="19" font-weight="700" text-anchor="start" opacity="1.0">commercecore/</text>
+<text x="530" y="810" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">event-driven commerce backend</text>
+<text x="92" y="848" fill="#91a7bd" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">drwxr-xr-x</text>
+<text x="245" y="848" fill="#6ab6ff" font-size="18" font-weight="600" text-anchor="start" opacity="1.0">▣</text>
+<text x="285" y="848" fill="#2dd4ff" font-size="19" font-weight="700" text-anchor="start" opacity="1.0">linux-kernel-lab/</text>
+<text x="530" y="848" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">kernel, BusyBox, QEMU, and character devices</text>
+<text x="92" y="930" fill="#55f5a3" font-size="22" font-weight="600" text-anchor="start" opacity="1.0">minh@github:~$</text>
+<text x="300" y="930" fill="#55f5a3" font-size="22" font-weight="600" text-anchor="start" opacity="1.0">cat stack.txt</text>
+<text x="92" y="978" fill="#2dd4ff" font-size="18" font-weight="700" text-anchor="start" opacity="1.0">languages    </text>
+<text x="290" y="978" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">C++  Go  Python  Java  C  TypeScript  SQL  Bash</text>
+<text x="92" y="1014" fill="#2dd4ff" font-size="18" font-weight="700" text-anchor="start" opacity="1.0">systems      </text>
+<text x="290" y="1014" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">Linux  TCP/IP  Raft  distributed systems  computer architecture</text>
+<text x="92" y="1050" fill="#2dd4ff" font-size="18" font-weight="700" text-anchor="start" opacity="1.0">infra        </text>
+<text x="290" y="1050" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">Kubernetes  Docker  FluxCD  Terraform  GitHub Actions</text>
+<text x="92" y="1086" fill="#2dd4ff" font-size="18" font-weight="700" text-anchor="start" opacity="1.0">data         </text>
+<text x="290" y="1086" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">PostgreSQL  Kafka  Redis  Apache Iceberg  Trino</text>
+<text x="92" y="1122" fill="#2dd4ff" font-size="18" font-weight="700" text-anchor="start" opacity="1.0">ml           </text>
+<text x="290" y="1122" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">PyTorch  CUDA  NVML  MLflow  model serving</text>
+<text x="92" y="1195" fill="#55f5a3" font-size="22" font-weight="600" text-anchor="start" opacity="1.0">minh@github:~$</text>
+<text x="300" y="1195" fill="#55f5a3" font-size="22" font-weight="600" text-anchor="start" opacity="1.0">./current_focus</text>
+<text x="92" y="1243" fill="#55f5a3" font-size="18" font-weight="700" text-anchor="start" opacity="1.0">[+]</text>
+<text x="145" y="1243" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">ML systems and efficient AI on real hardware</text>
+<text x="92" y="1277" fill="#55f5a3" font-size="18" font-weight="700" text-anchor="start" opacity="1.0">[+]</text>
+<text x="145" y="1277" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">GPU performance and computer architecture</text>
+<text x="92" y="1311" fill="#55f5a3" font-size="18" font-weight="700" text-anchor="start" opacity="1.0">[+]</text>
+<text x="145" y="1311" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">distributed systems and failure-aware infrastructure</text>
+<text x="92" y="1345" fill="#55f5a3" font-size="18" font-weight="700" text-anchor="start" opacity="1.0">[+]</text>
+<text x="145" y="1345" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">Linux, cloud platforms, and DevOps</text>
+<text x="92" y="1395" fill="#55f5a3" font-size="22" font-weight="600" text-anchor="start" opacity="1.0">minh@github:~$</text>
+<text x="300" y="1395" fill="#55f5a3" font-size="22" font-weight="600" text-anchor="start" opacity="1.0">cat experience.log</text>
+<text x="92" y="1443" fill="#6ab6ff" font-size="18" font-weight="600" text-anchor="start" opacity="1.0">[intern]</text>
+<text x="200" y="1443" fill="#2dd4ff" font-size="18" font-weight="700" text-anchor="start" opacity="1.0">DevSecOps Engineering Intern</text>
+<text x="565" y="1443" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">:: VietinBank</text>
+<text x="92" y="1477" fill="#6ab6ff" font-size="18" font-weight="600" text-anchor="start" opacity="1.0">[intern]</text>
+<text x="200" y="1477" fill="#2dd4ff" font-size="18" font-weight="700" text-anchor="start" opacity="1.0">Full-stack Engineering Intern</text>
+<text x="565" y="1477" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">:: FPT Software</text>
+<text x="92" y="1545" fill="#55f5a3" font-size="22" font-weight="600" text-anchor="start" opacity="1.0">minh@github:~$</text>
+<text x="300" y="1545" fill="#55f5a3" font-size="22" font-weight="600" text-anchor="start" opacity="1.0">./connect</text>
+<text x="92" y="1593" fill="#2dd4ff" font-size="18" font-weight="700" text-anchor="start" opacity="1.0">email     </text>
+<text x="250" y="1593" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">mphamnhat2006@gmail.com</text>
+<text x="92" y="1624" fill="#2dd4ff" font-size="18" font-weight="700" text-anchor="start" opacity="1.0">linkedin  </text>
+<text x="250" y="1624" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">linkedin.com/in/minhpham2418</text>
+<text x="92" y="1655" fill="#2dd4ff" font-size="18" font-weight="700" text-anchor="start" opacity="1.0">portfolio </text>
+<text x="250" y="1655" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">minhpham06.com</text>
+<text x="92" y="1686" fill="#2dd4ff" font-size="18" font-weight="700" text-anchor="start" opacity="1.0">github    </text>
+<text x="250" y="1686" fill="#d9e6f2" font-size="18" font-weight="400" text-anchor="start" opacity="1.0">github.com/nhatminh06</text>
+<text x="92" y="1705" fill="#55f5a3" font-size="21" font-weight="600" text-anchor="start" opacity="1.0">minh@github:~$</text>
+<rect x="300" y="1686" width="10" height="24" fill="#2dd4ff" opacity="0.95"/>
+</svg>
