@@ -1,73 +1,112 @@
-# Minh Pham
+<div align="center">
 
-Computer Science and Mathematics student at the University of Minnesota, Twin Cities, interested in **distributed systems, backend infrastructure, databases, networking, and AI systems**.
+# `minh@github:~$`
 
-I like building systems where correctness matters under concurrency, failures, retries, resource constraints, and real operational conditions. Most of my recent projects focus on understanding the mechanisms behind infrastructure rather than only assembling existing tools.
+```text
+	__  __ _       _     ____  _   _   _ __  __
++ |  \/  (_)_ __ | |__ |  _ \| |__| | | |  \/  |
+ | |\/| | | '_ \| '_ \| |_) | |__| | | | |\/| |
+ | |  | | | | | | | | |  __/| |  | | | | |  | |
+ |_|  |_|_|_| |_|_| |_|_|   |_|  |_| |_|_|  |_|
+```
 
-## Areas of Focus
+`Computer Science + Mathematics @ University of Minnesota, Twin Cities`
 
-- **Distributed systems** — consensus, replication, scheduling, leases, failure recovery
-- **Backend and database systems** — transactions, concurrency control, messaging, reliability
-- **Systems programming** — networking, storage engines, Linux, low-level debugging
-- **Platform engineering** — CI/CD, Kubernetes, GitOps, observability, infrastructure as code
-- **AI systems** — accelerator modeling, inference performance, ML infrastructure
+[![GitHub](https://img.shields.io/badge/github-101010?style=flat-square&logo=github&logoColor=00ff9c)](https://github.com/nhatminh06)
+[![LinkedIn](https://img.shields.io/badge/linkedin-101010?style=flat-square&logo=linkedin&logoColor=00ff9c)](https://linkedin.com/in/minhpham2418)
+[![Portfolio](https://img.shields.io/badge/portfolio-101010?style=flat-square&logo=googlechrome&logoColor=00ff9c)](https://minhpham06.com)
 
-## Featured Projects
+</div>
 
-| Project | What I Built | Focus |
-|---|---|---|
-| [**ForgeCI**](https://github.com/nhatminh06/forgeci) | Self-hosted distributed CI engine with DAG scheduling, remote runners, PostgreSQL-backed job leasing, immutable source snapshots, artifacts, caching, durable logs, and native GitHub integration. | Distributed systems, scheduling, concurrency, Go, PostgreSQL |
-| [**PgSentry**](https://github.com/nhatminh06/pgsentry) | PostgreSQL reliability engineering lab for studying automatic failover, replication durability, network partitions, migration risk, backup recovery, and operational alerting using real multi-VM failure experiments. | PostgreSQL, HA, distributed coordination, failure engineering |
-| [**TensorForge**](https://github.com/nhatminh06/tensorforge) | AI accelerator performance-modeling toolkit for studying GEMM, Transformer, and Conv2D workloads across PE arrays, SRAM capacity, tiling strategies, DRAM traffic, and measured hardware performance. | AI systems, computer architecture, performance modeling, Python |
-| [**QuorumKV**](https://github.com/nhatminh06/quorumkv) | Distributed key-value store implementing Raft consensus, replication, snapshots, membership changes, ReadIndex, crash recovery, and real-process cluster testing. | Consensus, distributed systems, Go |
-| [**Wirestack**](https://github.com/nhatminh06/wirestack) | User-space networking stack implementing TCP behavior including retransmission, adaptive RTO, flow and congestion control, NewReno, SACK, DNS resolution, HTTP, and Linux TAP interoperability. | Networking, protocols, systems programming, C++ |
-| [**CommerceCore**](https://github.com/nhatminh06/commercecore) | Correctness-first e-commerce backend exploring inventory contention, transactional checkout, idempotency, payment ambiguity, Kafka delivery, transactional outbox, reconciliation, and remote-service failures. | Java, Spring Boot, PostgreSQL, Kafka, gRPC |
+```console
+$ whoami
+minh-pham
 
-## More Systems Work
+$ cat mission.txt
+Build systems that stay correct when concurrency, failures, retries,
+resource constraints, and real operational conditions enter the room.
 
-- [**PageDB**](https://github.com/nhatminh06/pagedb) — educational database engine written in C with pages, buffer management, table storage, catalog, query execution, SQL planning, TCP protocol, and a Java client.
-- [**AEIGS**](https://github.com/nhatminh06/aeigs) — security-focused GitOps private cloud built with FluxCD, Kubernetes, Cilium, Kyverno, SOPS, Authentik, Prometheus, Loki, Grafana, and Hubble.
-- [**Linux Kernel Lab**](https://github.com/nhatminh06/linux-kernel-lab) — custom Linux kernel environment with BusyBox, QEMU, kernel debugging, and character-device development in C.
-- [**MatchSense**](https://github.com/nhatminh06/matchsense) — real-time football analytics platform using Go, Python, Kafka, Redis, Kubernetes, GitOps, and distributed observability.
-- [**Market Pulse**](https://github.com/nhatminh06/market-pulse) — analytical data platform built around Apache Iceberg, Trino, dbt, Airflow, Terraform, and MinIO.
+$ printf "focus: "
+distributed systems | backend infrastructure | databases | networking | AI systems
+```
 
-## What I Like to Study
+## `$ ls -la ./focus`
 
-A recurring question across my projects is:
+```text
+drwxr-xr-x  distributed-systems   consensus, replication, scheduling, recovery
+drwxr-xr-x  backend-and-databases  transactions, concurrency, messaging, reliability
+drwxr-xr-x  systems-programming    networking, storage engines, Linux, debugging
+drwxr-xr-x  platform-engineering   CI/CD, Kubernetes, GitOps, observability
+drwxr-xr-x  ai-systems             accelerator modeling, inference, ML infrastructure
+```
 
-> What actually happens when the normal path stops being normal?
+## `$ ./projects --featured`
 
-That has led me to experiment with:
+| Repository | Output |
+|---|---|
+| [forgeci](https://github.com/nhatminh06/forgeci) | Self-hosted distributed CI engine with DAG scheduling, remote runners, PostgreSQL-backed job leasing, immutable snapshots, artifacts, caching, durable logs, and GitHub integration. |
+| [pgsentry](https://github.com/nhatminh06/pgsentry) | PostgreSQL reliability lab for automatic failover, replication durability, partitions, migration risk, backup recovery, and alerting through real multi-VM failure experiments. |
+| [tensorforge](https://github.com/nhatminh06/tensorforge) | AI accelerator performance-modeling toolkit for GEMM, Transformer, and Conv2D workloads across PE arrays, SRAM, tiling, DRAM traffic, and measured hardware performance. |
+| [quorumkv](https://github.com/nhatminh06/quorumkv) | Distributed key-value store with Raft, replication, snapshots, membership changes, ReadIndex, crash recovery, and real-process cluster testing. |
+| [wirestack](https://github.com/nhatminh06/wirestack) | User-space TCP stack with retransmission, adaptive RTO, flow and congestion control, NewReno, SACK, DNS, HTTP, and Linux TAP interoperability. |
+| [commercecore](https://github.com/nhatminh06/commercecore) | Correctness-first e-commerce backend exploring contention, idempotency, payment ambiguity, Kafka delivery, outbox, reconciliation, and remote failures. |
 
-- concurrent transactions and race conditions
-- process crashes and restart recovery
-- network partitions and quorum loss
-- duplicate and reordered messages
-- stale distributed workers
-- ambiguous remote operations
-- storage durability and recovery
-- protocol retransmission and congestion
-- memory and compute bottlenecks
-- observability during real failures
+## `$ find ./systems-work -maxdepth 1`
 
-I try to make those behaviors measurable through tests, failure injection, benchmarks, and reproducible experiments instead of describing them only at the architecture level.
+```text
+./pagedb          educational C database engine with SQL planning and a Java client
+./aeigs           security-focused GitOps private cloud
+./linux-kernel-lab  BusyBox, QEMU, kernel debugging, and character devices
+./matchsense      real-time football analytics with distributed observability
+./market-pulse    Iceberg, Trino, dbt, Airflow, Terraform, and MinIO
+```
 
-## Experience
+## `$ ./failure-mode --list`
 
-- **DevSecOps Engineering Intern** — VietinBank
-- **Full-stack Engineering Intern** — FPT Software
+The question underneath my projects is: **what happens when the normal path stops being normal?**
 
-## Technical Focus
+```text
+[x] concurrent transactions and race conditions
+[x] process crashes and restart recovery
+[x] network partitions and quorum loss
+[x] duplicate and reordered messages
+[x] stale distributed workers
+[x] ambiguous remote operations
+[x] storage durability and recovery
+[x] protocol retransmission and congestion
+[x] memory and compute bottlenecks
+[x] observability during real failures
+```
 
-**Languages:** Go, Java, C, C++, Python, TypeScript  
-**Systems:** Linux, TCP/IP, Raft, PostgreSQL, Kafka, gRPC  
-**Infrastructure:** Kubernetes, Docker, Terraform, FluxCD, ArgoCD  
-**Observability:** Prometheus, Grafana, Loki, OpenTelemetry, Jaeger  
-**AI / ML:** PyTorch, MLflow, accelerator performance modeling, model serving
+I make those behaviors measurable with tests, failure injection, benchmarks, and reproducible experiments rather than describing them only at the architecture level.
 
-## Contact
+## `$ cat experience.log`
 
-- Email: [mphamnhat2006@gmail.com](mailto:mphamnhat2006@gmail.com)
-- LinkedIn: [linkedin.com/in/minhpham2418](https://linkedin.com/in/minhpham2418)
-- Portfolio: [minhpham06.com](https://minhpham06.com)
-- GitHub: [github.com/nhatminh06](https://github.com/nhatminh06)
+```text
+[intern] DevSecOps Engineering Intern  :: VietinBank
+[intern] Full-stack Engineering Intern :: FPT Software
+```
+
+## `$ env | grep TECHNICAL_FOCUS`
+
+```text
+LANGUAGES=Go, Java, C, C++, Python, TypeScript
+SYSTEMS=Linux, TCP/IP, Raft, PostgreSQL, Kafka, gRPC
+INFRASTRUCTURE=Kubernetes, Docker, Terraform, FluxCD, ArgoCD
+OBSERVABILITY=Prometheus, Grafana, Loki, OpenTelemetry, Jaeger
+AI_ML=PyTorch, MLflow, accelerator-performance-modeling, model-serving
+```
+
+## `$ ping -c 1 contact`
+
+```text
+email      mphamnhat2006@gmail.com
+linkedin   linkedin.com/in/minhpham2418
+portfolio  minhpham06.com
+github     github.com/nhatminh06
+```
+
+```text
+---
+connection closed: 0
+```
