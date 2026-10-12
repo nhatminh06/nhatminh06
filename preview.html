@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minh Pham — GitHub Terminal Banner Preview</title>
+  <style>
+    :root{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color-scheme:dark}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;background:#080d15;color:#d8e3ef;display:flex;align-items:center;justify-content:center;padding:25px}
+    main{width:min(1100px,100%);text-align:center}
+    .tag{color:#7f95a8;font-size:14px;letter-spacing:.08em;text-transform:uppercase}
+    img{display:block;width:100%;border-radius:16px;margin:18px auto}
+    button{font:inherit;padding:11px 18px;color:#9af7af;border:1px solid #2d4e55;background:#10222a;border-radius:8px;cursor:pointer}
+    button:hover{background:#16303b}
+    p{color:#95a9bc;font-size:13px;line-height:1.6}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="tag">GitHub profile terminal — local preview</div>
+    <img id="banner" src="assets/terminal.svg" alt="Animated terminal profile preview" />
+    <button type="button" id="replay">↻ Replay animation</button>
+    <p>This page previews the SVG using HTML, CSS and JavaScript. GitHub itself displays the SVG image inside README.md; the JavaScript does not run on GitHub.</p>
+  </main>
+  <script>
+    document.querySelector('#replay').addEventListener('click',()=>{
+      const image=document.querySelector('#banner');
+      image.src='assets/terminal.svg?replay='+Date.now();
+    });
+  </script>
+</body>
+</html>

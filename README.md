@@ -1,128 +1,66 @@
-🔴 &nbsp; 🟡 &nbsp; 🟢 &nbsp;&nbsp;&nbsp; `minh@github:~`
----
+<div align="center">
+  <img src="assets/terminal.svg" alt="Terminal-themed profile of Minh Pham, systems and ML infrastructure engineer" width="100%" />
+</div>
 
-### `minh@github:~$ whoami`
+<div align="center">
 
-# Minh Pham
+[**`[ portfolio ]`**](https://minhpham06.com) &nbsp; [**`[ linkedin ]`**](https://www.linkedin.com/in/nhat-minh-pham-a870382a8) &nbsp; [**`[ projects ]`**](https://github.com/nhatminh06?tab=repositories)
 
-**Computer Science @ University of Minnesota**
-
-`systems engineering` · `low-level programming` · `ML systems`
-
-> I build efficient, dependable systems close to the hardware and useful in production.
-
----
-
-### `minh@github:~$ cat interests.txt`
-
-```text
-ML Systems        GPU Performance        Computer Architecture
-Distributed Systems        Linux        AI Infrastructure
-```
-
-### `minh@github:~$ ./current-focus`
-
-```diff
-+ ML systems and efficient AI on real hardware
-+ GPU performance and computer architecture
-+ Distributed systems and systems software
-```
-
----
-
-### `minh@github:~$ ls ~/projects`
-
-| Project | What it is | Stack |
-| --- | --- | --- |
-| **[TensorForge](https://github.com/nhatminh06/tensorforge)** | Empirical GPU roofline modeling and performance analysis | Python · PyTorch · CUDA · NVML |
-| **[QuorumKV](https://github.com/nhatminh06/quorumkv)** | Raft-based distributed key-value store | Go · Raft · TCP |
-| **[WireStack](https://github.com/nhatminh06/wirestack)** | TCP/IP networking stack built from scratch | C++ · Ethernet · IPv4 · TCP |
-| **[Aegis](https://github.com/nhatminh06/aegis)** | Secure GitOps private-cloud platform | Kubernetes · FluxCD · Cilium · Kyverno |
-| **[CommerceCore](https://github.com/nhatminh06/commercecore)** | Transactional event-driven commerce backend | Java · PostgreSQL · Kafka · gRPC |
-| **[Linux Kernel Lab](https://github.com/nhatminh06/linux-kernel-lab)** | Kernel, QEMU, BusyBox, and device-driver experiments | C · Linux · QEMU · GDB |
-
----
-
-### `minh@github:~$ cat stack.txt`
-
-```yaml
-languages:
-  - C++
-  - C
-  - Go
-  - Python
-  - Java
-  - TypeScript
-  - SQL
-  - Bash
-
-systems:
-  - Linux
-  - TCP/IP
-  - Raft
-  - Distributed Systems
-  - Computer Architecture
-
-infrastructure:
-  - Kubernetes
-  - Docker
-  - FluxCD
-  - Terraform
-  - GitHub Actions
-
-data:
-  - PostgreSQL
-  - Kafka
-  - Redis
-  - Apache Iceberg
-  - Trino
-
-ml-systems:
-  - PyTorch
-  - CUDA
-  - NVML
-  - MLflow
-  - Model Serving
-```
-
----
+</div>
 
 ### `minh@github:~$ cat about.txt`
 
 ```text
-I like understanding what happens below the abstraction.
+I build dependable systems close to the hardware and useful in production.
 
-That usually means working somewhere between distributed systems,
-operating systems, networking, GPU performance, and ML infrastructure.
-
-I care about systems that are measurable, reproducible,
-and actually work outside of a demo.
+Currently exploring the intersection of distributed systems, Linux,
+computer architecture, GPU performance, and machine learning systems.
 ```
 
----
+### `minh@github:~$ ls -lah ~/featured-projects`
 
-### `minh@github:~$ cat principles.txt`
+| Permissions | Repository | What I'm building |
+| :--- | :--- | :--- |
+| `drwxr-xr-x` | **[TensorForge](https://github.com/nhatminh06/tensorforge)** | GPU roofline modeling, profiling, and performance analysis with PyTorch and CUDA. |
+| `drwxr-xr-x` | **[QuorumKV](https://github.com/nhatminh06/quorumkv)** | A distributed key-value store built around Raft consensus and fault tolerance. |
+| `drwxr-xr-x` | **[WireStack](https://github.com/nhatminh06/wirestack)** | A TCP/IP stack built from scratch to understand how packets move through a network. |
+| `drwxr-xr-x` | **[Aegis](https://github.com/nhatminh06/aegis)** | Secure GitOps private-cloud platform with Kubernetes, FluxCD, Cilium, and Kyverno. |
+| `drwxr-xr-x` | **[CommerceCore](https://github.com/nhatminh06/commercecore)** | Event-driven commerce backend focused on transactional correctness and failure recovery. |
+| `drwxr-xr-x` | **[Linux Kernel Lab](https://github.com/nhatminh06/linux-kernel-lab)** | Linux kernel, QEMU, and device-driver experiments. |
+
+### `minh@github:~$ cat /etc/tech-stack`
+
+```yaml
+languages: [C++, C, Go, Python, Java, TypeScript, SQL, Bash]
+systems: [Linux, Raft, TCP/IP, Operating Systems, Computer Architecture]
+infrastructure: [Docker, Kubernetes, FluxCD, Terraform, GitHub Actions]
+data: [PostgreSQL, Kafka, Redis]
+ml_systems: [PyTorch, CUDA, NVML, MLflow]
+```
+
+### `minh@github:~$ ./what-im-working-on.sh`
+
+```diff
++ Performance engineering for efficient AI on real hardware
++ Distributed systems and systems software
++ Building, measuring, breaking, and fixing production-like systems
+```
+
+### `minh@github:~$ cat principles.ini`
 
 ```ini
 [engineering]
-measure    = "before optimizing"
-automate   = "what should be reproducible"
-test       = "the failure paths too"
-document   = "what future me will forget"
-ship       = "working systems over impressive diagrams"
+measure  = "before optimizing"
+automate = "what should be reproducible"
+test     = "failure paths, not just the happy path"
+document = "the details future me will forget"
+ship     = "systems that actually work"
 ```
 
 ---
 
-### `minh@github:~$ ls links/`
+<div align="center">
 
-[**Portfolio**](https://minhpham06.com)
-· [**LinkedIn**](https://www.linkedin.com/in/nhat-minh-pham-a870382a8)
-· [**TensorForge**](https://github.com/nhatminh06/tensorforge)
-· [**QuorumKV**](https://github.com/nhatminh06/quorumkv)
-· [**WireStack**](https://github.com/nhatminh06/wirestack)
-· [**Aegis**](https://github.com/nhatminh06/aegis)
+<sub><code>minh@github:~$ echo "Thanks for visiting."</code></sub>
 
-<br>
-
-`minh@github:~$` ▋
+</div>
